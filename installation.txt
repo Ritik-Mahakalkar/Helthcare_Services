@@ -1,0 +1,9 @@
+Installation all dependancies
+command :-
+npm install
+
+Run the program
+command:-
+npm run dev
+
+

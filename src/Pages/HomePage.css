@@ -1,0 +1,17 @@
+.main_container{
+    display: flex;
+    gap: 200px;
+}
+.right{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    width: 60%;
+    height: 100%;
+    backdrop-filter: blur(20px);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: black;
+}

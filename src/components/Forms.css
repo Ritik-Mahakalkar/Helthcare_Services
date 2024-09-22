@@ -1,0 +1,78 @@
+
+
+ h2{
+    font-size: 32px;
+    text-align: center;
+    margin-top: 30px;
+    
+    
+}
+.btn{
+    width: 100%;
+    height: 45px;
+    
+    background: black;
+    outline: none;
+    border-radius: 75px;
+    cursor: pointer;
+    font: 24px  bold;
+    color: white;
+    font-weight: 500;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    margin-top: 20px;
+}
+.btn:hover{
+    color: black;
+    background: aliceblue;
+}
+.input label{
+    
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    font-size: 16px;
+    font-weight: 500;
+    pointer-events: none;
+    transition: .5s ease;
+   
+
+}
+.input input:focus~label,
+.input input:valid~label{
+  top:-5px;
+}
+.input input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    padding-right: 28px;
+    border-bottom: 1px solid gray;
+    margin-top: 20px;
+}
+textarea{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    padding-right: 28px;
+    border-bottom: 1px solid gray;
+    
+
+}
+.input{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.cont
+{
+   
+}
